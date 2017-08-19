@@ -1,0 +1,148 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OraleWey.Master.cs" Inherits="OraleWey_Web.OraleWey" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en"<%-- style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"--%>>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+	<title>OraleWey Cargos</title>
+	<link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css' />
+	
+	<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+	<!--[if lt IE 9]>
+		<script src="js/modernizr.custom.js"></script>
+	<![endif]-->
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/functions.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+	<!-- wraper -->
+	<div id="wrapper">
+		<!-- shell -->
+		<div class="shell">
+			<!-- container -->
+			<div class="container">
+            	<!-- header -->
+                <header id="header1">
+                <h1 id="logo"><a href="Default.aspx">OraleWey Cargos</a></h1>
+                   <!--  <img src="css/images/Prueba.png" />-->
+                   	<!-- search -->
+					<div class="search">
+						<form method="post">
+							<%--<span class="field"><input type="text" class="field" value="keywords here ..." title="keywords here ..." /></span>
+							<input type="submit" class="search-btn" value="" />--%>
+                             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Login.aspx">Login</asp:HyperLink>
+						</form>
+					</div>
+					<!-- end of search -->
+				</header>
+				<!-- end of header -->
+				<!-- navigation -->
+				<nav id="navigation">
+					<a href="Default.aspx" class="nav-btn">Inicio<span class="arr"></span></a>
+					<ul>
+						<li><a href="Default.aspx">Inicio</a></li>
+						<li><a href="MiCuenta.aspx">Mi Cuenta</a></li>
+						<li><a href="CalcularEnvios.aspx">Calcular Envíos</a></li>
+						<li><a href="PreAlerta.aspx">Pre-Alerta</a></li>
+						<li><a href="SeguirPaquete.aspx">Siga su Paquete</a></li>
+						<li><a href="Contactenos.aspx">Contactenos</a></li>
+					</ul>
+				</nav>
+
+                 <%--<div class="clear hideSkiplink">
+                
+                                <asp:Menu ID="NavigationMenu" runat="server" 
+                                    CssClass="menu" DynamicHorizontalOffset="2" EnableViewState="False" 
+                                    IncludeStyleBlock="False" Orientation="Horizontal">
+                                    <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                                    <DynamicSelectedStyle BackColor="#5D7B9D" />
+                                    <Items>
+                                        <asp:MenuItem Text="Mi Cuenta" Value="Mi Cuenta"></asp:MenuItem>
+                                        <asp:MenuItem Text="Registrarce" Value="Registrarce"></asp:MenuItem>
+                                        <asp:MenuItem Text="Pre-Alerta" Value="Pre-Alerta"></asp:MenuItem>
+                                        <asp:MenuItem Text="Sega su Paquete" Value="Sega su Paquete"></asp:MenuItem>
+                                        <asp:MenuItem Text="Servicios" Value="Servicios">
+                                            <asp:MenuItem Text="Calcular Envíos" Value="Calcular Envíos"></asp:MenuItem>
+                                            <asp:MenuItem Text="Seguir Paquetes" Value="Seguir Paquetes"></asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Contactenos" Value="Contactenos"></asp:MenuItem>
+                                    </Items>
+                                    <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                    <StaticSelectedStyle BackColor="#5D7B9D" />
+                                </asp:Menu>
+                                              
+                </div>--%>
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+				<!-- end of slider -->
+				<!-- main -->
+				
+				<!-- end of main -->
+				<div class="socials">
+					<div class="socials-inner">
+						<h3>Síguenos</h3>
+						<ul>
+							<li><a href="#" class="facebook-ico"><span></span>Facebook</a></li>
+							<li><a href="#" class="twitter-ico"><span></span>Twitter</a></li>
+							<li><a href="#" class="rss-feed-ico"><span></span>Rss-feed</a></li>
+						</ul>
+						<div class="cl">&nbsp;</div>
+					</div>
+				</div>
+				<div id="footer">
+					<div class="footer-cols">
+						<div class="col">
+							<h2>Información</h2>
+							<ul>
+								<li><a href="#">Como Comprar</a></li>
+								<li><a href="#">Preguntas Frecuentes</a></li>
+								<li><a href="#">Quiénes Somos</a></li>
+							</ul>
+						</div>
+						<div class="col">
+							<h2>Servicios</h2>
+							<ul>
+								<li><a href="#">Compra con Nosotros</a></li>
+								<li><a href="PreAlerta.aspx">Pre-Alerta</a></li>
+								<li><a href="SeguirPaquete.aspx">Siga su Paquete</a></li>
+								<li><a href="CalcularEnvios.aspx">Calcular Envíos</a></li>
+							</ul>
+						</div>
+						<div class="cl">&nbsp;</div>
+					</div>
+					<!-- end of footer-cols -->
+					<div class="footer-bottom">
+						<nav class="footer-nav">
+							<ul>
+								<li><a href="Default.aspx">Inicio</a></li>
+								<li><a href="MiCuenta.aspx">Mi Cuenta</a></li>
+								<li><a href="CalcularEnvios.aspx">Calcular Envíos</a></li>
+								<li><a href="PreAlerta.aspx">Pre-Alerta</a></li>
+								<li><a href="SeguirPaquete.aspx">Siga su Paquete</a></li>
+								<li><a href="Contactenos.aspx">Contáctenos</a></li>
+							</ul>
+						</nav>
+						<p class="copy">&copy; Copyright 2015 OraleWey Cargos <span>|</span> <strong>Diseñado por <a href="http://OraleWeyCargos.com" target="_blank">OraleWey Cargos</a></strong></p>
+						<div class="cl">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			<!-- end of container -->	
+		</div>
+		<!-- end of shell -->	
+	</div>
+	<!-- end of wrapper -->
+</body>
+</html>
