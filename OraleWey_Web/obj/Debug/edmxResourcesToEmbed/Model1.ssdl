@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_93367_oralewayModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DB_93367_oralewayModelStoreContainer">
+    <EntitySet Name="Packages" EntityType="DB_93367_oralewayModel.Store.Packages" store:Type="Views" store:Schema="dbo" store:Name="Packages">
+      <DefiningQuery>SELECT 
+      [Packages].[id_Package] AS [id_Package], 
+      [Packages].[fecha] AS [fecha], 
+      [Packages].[ORW] AS [ORW], 
+      [Packages].[Tienda] AS [Tienda], 
+      [Packages].[Description1] AS [Description1], 
+      [Packages].[Description2] AS [Description2], 
+      [Packages].[Description3] AS [Description3], 
+      [Packages].[Tracking] AS [Tracking], 
+      [Packages].[id_cliente] AS [id_cliente], 
+      [Packages].[DeliveryDay] AS [DeliveryDay], 
+      [Packages].[Valor] AS [Valor]
+      FROM [dbo].[Packages] AS [Packages]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'DB_93367_oraleway.dbo.Packages' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Packages">
+    <Key>
+      <PropertyRef Name="id_Package" />
+    </Key>
+    <Property Name="id_Package" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="ORW" Type="varchar(max)" />
+    <Property Name="Tienda" Type="varchar" MaxLength="50" />
+    <Property Name="Description1" Type="varchar" MaxLength="50" />
+    <Property Name="Description2" Type="varchar" MaxLength="50" />
+    <Property Name="Description3" Type="varbinary" MaxLength="50" />
+    <Property Name="Tracking" Type="varchar" MaxLength="50" />
+    <Property Name="id_cliente" Type="int" />
+    <Property Name="DeliveryDay" Type="date" />
+    <Property Name="Valor" Type="numeric" Scale="2" />
+  </EntityType>
+</Schema>

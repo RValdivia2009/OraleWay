@@ -1,0 +1,19 @@
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web_2\OraleWey_Web\bin\OraleWey_Web.dll
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web_2\OraleWey_Web\bin\OraleWey_Web.pdb
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web_2\OraleWey_Web\obj\Debug\OraleWey_Web.dll
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web_2\OraleWey_Web\obj\Debug\OraleWey_Web.pdb
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web - Copy\OraleWey_Web\bin\OraleWey_Web.dll
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web - Copy\OraleWey_Web\bin\OraleWey_Web.pdb
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web - Copy\OraleWey_Web\obj\Debug\OraleWey_Web.csprojResolveAssemblyReference.cache
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web - Copy\OraleWey_Web\obj\Debug\OraleWey_Web.dll
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web - Copy\OraleWey_Web\obj\Debug\OraleWey_Web.pdb
+E:\Roberto_V\Application_Work\Oralewey_App_Web\Salvas\OraleWey_Web (09-03)\OraleWey_Web\bin\OraleWey_Web.dll
+E:\Roberto_V\Application_Work\Oralewey_App_Web\Salvas\OraleWey_Web (09-03)\OraleWey_Web\bin\OraleWey_Web.pdb
+E:\Roberto_V\Application_Work\Oralewey_App_Web\Salvas\OraleWey_Web (09-03)\OraleWey_Web\obj\Debug\OraleWey_Web.csprojResolveAssemblyReference.cache
+E:\Roberto_V\Application_Work\Oralewey_App_Web\Salvas\OraleWey_Web (09-03)\OraleWey_Web\obj\Debug\OraleWey_Web.dll
+E:\Roberto_V\Application_Work\Oralewey_App_Web\Salvas\OraleWey_Web (09-03)\OraleWey_Web\obj\Debug\OraleWey_Web.pdb
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web\OraleWey_Web\bin\OraleWey_Web.dll
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web\OraleWey_Web\bin\OraleWey_Web.pdb
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web\OraleWey_Web\obj\Debug\OraleWey_Web.dll
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web\OraleWey_Web\obj\Debug\OraleWey_Web.pdb
+E:\Roberto_V\Application_Work\Oralewey_App_Web\OraleWey_Web\OraleWey_Web\obj\Debug\OraleWey_Web.csprojResolveAssemblyReference.cache
